@@ -1,4 +1,6 @@
 // 짝수들의 합을 구하는 프로그램 단, 깃허브가 최신의 내용이다
+// 나는 버전 3이다
+// 깃허브는 버전 5이다
 public class ForApplyExam {
 
 	public static void main(String[] args) {
@@ -21,7 +23,8 @@ public class ForApplyExam {
 //		System.out.println("0~10까지의 짝수 합계는: " + sum);
 //		}
 		
-		int sum = 0; 
+		int sum = 0;
+		
 		for(int i =1; i <=10; i++) {
 			if(i % 2 == 0) {
 				sum = sum + i;
